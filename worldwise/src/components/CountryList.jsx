@@ -24,7 +24,7 @@ function CountryList({ cities, isLoading }) {
     <ul className={styles.countryList}>
       {/*  eslint-disable-next-line react/prop-types */}
       {countries.map((country) => (
-        <CountryItem country={country} key={country.id} />
+        <CountryItem country={country} key={country.country} />
       ))}
     </ul>
   );
